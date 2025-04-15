@@ -1,3 +1,4 @@
 airflow-env/
 __pycache__
-.init_airflow
+.init_airflow.txt
+**/.init_airflow.txt
