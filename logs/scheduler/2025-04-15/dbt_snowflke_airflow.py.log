@@ -813,3 +813,17 @@ KeyError: 'Variable dbt_profiles_dir does not exist'
 [2025-04-15T20:34:20.003+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:34:20.002+0200] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-15T20:34:20.030+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:34:20.030+0200] {dag.py:4180} INFO - Setting next_dagrun for dbt_snowflake_pipeline to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
 [2025-04-15T20:34:20.081+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags/dbt_snowflke_airflow.py took 0.304 seconds
+[2025-04-15T20:37:13.657+0200] {processor.py:186} INFO - Started process (PID=17444) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags/dbt_snowflke_airflow.py
+[2025-04-15T20:37:13.660+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags/dbt_snowflke_airflow.py for tasks to queue
+[2025-04-15T20:37:13.661+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:37:13.661+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags/dbt_snowflke_airflow.py
+[2025-04-15T20:37:13.839+0200] {processor.py:925} INFO - DAG(s) 'dbt_snowflake_pipeline' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags/dbt_snowflke_airflow.py
+[2025-04-15T20:37:13.874+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:37:13.874+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T20:37:13.897+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:37:13.897+0200] {dag.py:4180} INFO - Setting next_dagrun for dbt_snowflake_pipeline to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-15T20:37:14.052+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags/dbt_snowflke_airflow.py took 0.400 seconds
+[2025-04-15T20:40:06.496+0200] {processor.py:186} INFO - Started process (PID=21291) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags/dbt_snowflke_airflow.py
+[2025-04-15T20:40:06.501+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags/dbt_snowflke_airflow.py for tasks to queue
+[2025-04-15T20:40:06.503+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:40:06.502+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags/dbt_snowflke_airflow.py
+[2025-04-15T20:40:06.693+0200] {processor.py:925} INFO - DAG(s) 'dbt_snowflake_pipeline' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags/dbt_snowflke_airflow.py
+[2025-04-15T20:40:06.729+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:40:06.728+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T20:40:06.749+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:40:06.748+0200] {dag.py:4180} INFO - Setting next_dagrun for dbt_snowflake_pipeline to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-15T20:40:06.793+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags/dbt_snowflke_airflow.py took 0.302 seconds

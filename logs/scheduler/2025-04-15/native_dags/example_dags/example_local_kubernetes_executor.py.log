@@ -3111,3 +3111,25 @@ ModuleNotFoundError: No module named 'kubernetes'
 [2025-04-15T20:33:30.448+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:33:30.448+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
 [2025-04-15T20:33:30.448+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
 [2025-04-15T20:33:30.545+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.201 seconds
+[2025-04-15T20:36:21.326+0200] {processor.py:186} INFO - Started process (PID=15851) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T20:36:21.329+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T20:36:21.330+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:36:21.330+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T20:36:21.420+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:36:21.419+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T20:36:21.421+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:36:21.420+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T20:36:21.421+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T20:36:21.527+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.205 seconds
+[2025-04-15T20:39:20.880+0200] {processor.py:186} INFO - Started process (PID=20346) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T20:39:20.882+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T20:39:20.883+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:39:20.883+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T20:39:20.968+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:39:20.968+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T20:39:20.977+0200] {logging_mixin.py:190} INFO - [2025-04-15T20:39:20.976+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T20:39:20.978+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T20:39:21.083+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.207 seconds
