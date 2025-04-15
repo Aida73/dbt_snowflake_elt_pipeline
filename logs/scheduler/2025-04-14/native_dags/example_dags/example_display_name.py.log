@@ -1,0 +1,991 @@
+[2025-04-14T18:22:54.066+0200] {processor.py:186} INFO - Started process (PID=30862) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:22:54.069+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:22:54.071+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:22:54.070+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:22:54.117+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:22:54.454+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:22:54.454+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_display_name
+[2025-04-14T18:22:54.468+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:22:54.468+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_display_name
+[2025-04-14T18:22:54.477+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:22:54.477+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_display_name
+[2025-04-14T18:22:54.490+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:22:54.489+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_display_name
+[2025-04-14T18:22:54.498+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:22:54.498+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_display_name
+[2025-04-14T18:22:54.508+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:22:54.508+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_display_name
+[2025-04-14T18:22:54.516+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:22:54.516+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_display_name
+[2025-04-14T18:22:54.517+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:22:54.516+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:22:54.533+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:22:54.532+0200] {dag.py:3262} INFO - Creating ORM DAG for example_display_name
+[2025-04-14T18:22:54.533+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:22:54.533+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:22:54.555+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.495 seconds
+[2025-04-14T18:23:35.914+0200] {processor.py:186} INFO - Started process (PID=31722) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:23:35.916+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:23:35.918+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:23:35.917+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:23:35.976+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:23:36.210+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:23:36.209+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:23:36.227+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:23:36.226+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:23:36.253+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.346 seconds
+[2025-04-14T18:24:40.170+0200] {processor.py:186} INFO - Started process (PID=33652) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:24:40.171+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:24:40.173+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:24:40.173+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:24:40.218+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:24:40.393+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:24:40.392+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:24:40.406+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:24:40.405+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:24:40.425+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.262 seconds
+[2025-04-14T18:26:57.506+0200] {processor.py:186} INFO - Started process (PID=37130) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:26:57.508+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:26:57.510+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:26:57.509+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:26:57.564+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:26:57.784+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:26:57.784+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:26:57.795+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:26:57.795+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:26:57.817+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.318 seconds
+[2025-04-14T18:26:58.112+0200] {processor.py:186} INFO - Started process (PID=37131) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:26:58.113+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:26:58.115+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:26:58.115+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:26:58.158+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:26:58.312+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:26:58.312+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:26:58.323+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:26:58.323+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:26:58.341+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.235 seconds
+[2025-04-14T18:27:35.716+0200] {processor.py:186} INFO - Started process (PID=39152) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:27:35.718+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:27:35.719+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:27:35.719+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:27:35.757+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:27:35.914+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:27:35.914+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:27:35.925+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:27:35.924+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:27:35.943+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.233 seconds
+[2025-04-14T18:28:30.399+0200] {processor.py:186} INFO - Started process (PID=40590) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:28:30.400+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:28:30.401+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:28:30.401+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:28:30.438+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:28:30.595+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:28:30.595+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:28:30.606+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:28:30.606+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:28:30.632+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.238 seconds
+[2025-04-14T18:30:19.373+0200] {processor.py:186} INFO - Started process (PID=43958) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:30:19.375+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:30:19.377+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:30:19.376+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:30:19.430+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:30:19.652+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:30:19.651+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:30:19.664+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:30:19.663+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:30:19.685+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.321 seconds
+[2025-04-14T18:30:44.173+0200] {processor.py:186} INFO - Started process (PID=44522) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:30:44.175+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:30:44.177+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:30:44.176+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:30:44.213+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:30:44.375+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:30:44.374+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:30:44.386+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:30:44.385+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:30:44.406+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.238 seconds
+[2025-04-14T18:34:05.196+0200] {processor.py:186} INFO - Started process (PID=49211) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:34:05.198+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:34:05.200+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:34:05.199+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:34:05.257+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:34:05.514+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:34:05.513+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:34:05.535+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:34:05.535+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:34:05.570+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.380 seconds
+[2025-04-14T18:35:25.934+0200] {processor.py:186} INFO - Started process (PID=50728) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:35:25.936+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:35:25.939+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:35:25.938+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:35:26.000+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:35:26.353+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:35:26.353+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:35:26.371+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:35:26.371+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:35:26.400+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.479 seconds
+[2025-04-14T18:36:29.482+0200] {processor.py:186} INFO - Started process (PID=51953) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:36:29.494+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:36:29.496+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:36:29.495+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:36:29.562+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:36:29.766+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:36:29.765+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:36:29.779+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:36:29.779+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:36:29.837+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.361 seconds
+[2025-04-14T18:37:43.010+0200] {processor.py:186} INFO - Started process (PID=53699) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:37:43.012+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:37:43.014+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:37:43.014+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:37:43.076+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:37:43.365+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:37:43.364+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:37:43.394+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:37:43.394+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:37:43.436+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.433 seconds
+[2025-04-14T18:38:12.914+0200] {processor.py:186} INFO - Started process (PID=54817) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:38:12.916+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:38:12.918+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:38:12.918+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:38:12.974+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:38:13.257+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:38:13.256+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:38:13.282+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:38:13.281+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:38:13.309+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.401 seconds
+[2025-04-14T18:42:03.938+0200] {processor.py:186} INFO - Started process (PID=61271) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:42:03.940+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:42:03.942+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:42:03.942+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:42:04.003+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:42:04.281+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:42:04.281+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:42:04.315+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:42:04.314+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:42:04.405+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.475 seconds
+[2025-04-14T18:42:06.528+0200] {processor.py:186} INFO - Started process (PID=61287) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:42:06.530+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:42:06.532+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:42:06.531+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:42:06.587+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:42:06.863+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:42:06.862+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:42:06.880+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:42:06.880+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:42:06.912+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.390 seconds
+[2025-04-14T18:42:30.281+0200] {processor.py:186} INFO - Started process (PID=61831) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:42:30.283+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:42:30.284+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:42:30.284+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:42:30.344+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:42:30.603+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:42:30.602+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:42:30.621+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:42:30.621+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:42:30.654+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.380 seconds
+[2025-04-14T18:42:38.253+0200] {processor.py:186} INFO - Started process (PID=62075) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:42:38.254+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:42:38.256+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:42:38.256+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:42:38.312+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:42:38.514+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:42:38.514+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:42:38.526+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:42:38.525+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:42:38.550+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.304 seconds
+[2025-04-14T18:43:41.318+0200] {processor.py:186} INFO - Started process (PID=63426) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:43:41.320+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:43:41.323+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:43:41.322+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:43:41.405+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:43:41.990+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:43:41.989+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:43:42.028+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:43:42.022+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:43:42.115+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.803 seconds
+[2025-04-14T18:46:12.938+0200] {processor.py:186} INFO - Started process (PID=67220) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:46:12.941+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:46:12.943+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:46:12.943+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:46:13.005+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:46:13.272+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:46:13.271+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:46:13.290+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:46:13.289+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:46:13.324+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.392 seconds
+[2025-04-14T18:46:47.381+0200] {processor.py:186} INFO - Started process (PID=68012) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:46:47.383+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:46:47.385+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:46:47.385+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:46:47.445+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:46:47.705+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:46:47.704+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:46:47.722+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:46:47.722+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:46:47.757+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.383 seconds
+[2025-04-14T18:47:38.529+0200] {processor.py:186} INFO - Started process (PID=69475) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:47:38.531+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:47:38.533+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:47:38.533+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:47:38.590+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:47:38.856+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:47:38.855+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:47:38.872+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:47:38.872+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:47:38.902+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.380 seconds
+[2025-04-14T18:50:17.103+0200] {processor.py:186} INFO - Started process (PID=72889) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:50:17.105+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:50:17.107+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:50:17.107+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:50:17.161+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:50:17.553+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:50:17.552+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:50:17.574+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:50:17.573+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:50:17.606+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.510 seconds
+[2025-04-14T18:50:30.996+0200] {processor.py:186} INFO - Started process (PID=73180) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:50:30.998+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:50:30.999+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:50:30.999+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:50:31.045+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:50:31.051+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:50:31.051+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:50:31.238+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:50:31.238+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:50:31.256+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.266 seconds
+[2025-04-14T18:50:34.141+0200] {processor.py:186} INFO - Started process (PID=73194) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:50:34.142+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:50:34.144+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:50:34.144+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:50:34.190+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:50:34.198+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:50:34.198+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:50:34.368+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:50:34.368+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:50:34.387+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.252 seconds
+[2025-04-14T18:51:36.642+0200] {processor.py:186} INFO - Started process (PID=74590) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:51:36.644+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:51:36.646+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:51:36.645+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:51:36.704+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:51:36.951+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:51:36.950+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:51:36.968+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:51:36.968+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:51:36.998+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.362 seconds
+[2025-04-14T18:57:13.934+0200] {processor.py:186} INFO - Started process (PID=81811) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:57:13.936+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:57:13.937+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:57:13.937+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:57:13.983+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:57:14.347+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:57:14.347+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:57:14.360+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:57:14.360+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:57:14.383+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.456 seconds
+[2025-04-14T18:57:17.294+0200] {processor.py:186} INFO - Started process (PID=81828) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:57:17.296+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:57:17.298+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:57:17.298+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:57:17.363+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:57:17.372+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:57:17.372+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:57:17.655+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:57:17.654+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:57:17.686+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.399 seconds
+[2025-04-14T18:57:37.073+0200] {processor.py:186} INFO - Started process (PID=82359) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:57:37.075+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:57:37.078+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:57:37.077+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:57:37.149+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:57:37.163+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:57:37.162+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:57:37.555+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:57:37.555+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:57:37.612+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.546 seconds
+[2025-04-14T18:58:59.507+0200] {processor.py:186} INFO - Started process (PID=84199) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:58:59.509+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T18:58:59.511+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:58:59.511+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:58:59.579+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T18:59:00.113+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:59:00.112+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T18:59:00.133+0200] {logging_mixin.py:190} INFO - [2025-04-14T18:59:00.133+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T18:59:00.170+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.670 seconds
+[2025-04-14T19:01:20.249+0200] {processor.py:186} INFO - Started process (PID=86968) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:01:20.251+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:01:20.253+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:01:20.253+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:01:20.312+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:01:20.567+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:01:20.566+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:01:20.584+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:01:20.584+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:01:20.612+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.371 seconds
+[2025-04-14T19:01:21.678+0200] {processor.py:186} INFO - Started process (PID=86977) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:01:21.680+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:01:21.682+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:01:21.681+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:01:21.729+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:01:21.912+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:01:21.911+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:01:21.923+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:01:21.923+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:01:21.944+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.273 seconds
+[2025-04-14T19:01:40.403+0200] {processor.py:186} INFO - Started process (PID=87477) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:01:40.405+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:01:40.406+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:01:40.406+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:01:40.451+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:01:40.673+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:01:40.673+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:01:40.684+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:01:40.684+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:01:40.709+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.313 seconds
+[2025-04-14T19:02:51.990+0200] {processor.py:186} INFO - Started process (PID=89275) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:02:51.992+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:02:51.993+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:02:51.993+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:02:52.042+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:02:52.250+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:02:52.250+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:02:52.264+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:02:52.263+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:02:52.289+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.305 seconds
+[2025-04-14T19:06:43.408+0200] {processor.py:186} INFO - Started process (PID=94541) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:06:43.410+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:06:43.413+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:06:43.412+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:06:43.475+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:06:44.061+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:06:44.060+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_display_name
+[2025-04-14T19:06:44.078+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:06:44.077+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_display_name
+[2025-04-14T19:06:44.090+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:06:44.089+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_display_name
+[2025-04-14T19:06:44.105+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:06:44.104+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_display_name
+[2025-04-14T19:06:44.115+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:06:44.115+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_display_name
+[2025-04-14T19:06:44.126+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:06:44.126+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_display_name
+[2025-04-14T19:06:44.138+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:06:44.137+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_display_name
+[2025-04-14T19:06:44.139+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:06:44.138+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:06:44.162+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:06:44.162+0200] {dag.py:3262} INFO - Creating ORM DAG for example_display_name
+[2025-04-14T19:06:44.163+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:06:44.163+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:06:44.192+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.792 seconds
+[2025-04-14T19:08:45.367+0200] {processor.py:186} INFO - Started process (PID=98472) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:08:45.369+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:08:45.371+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:08:45.371+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:08:45.423+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:08:45.663+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:08:45.663+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:08:45.679+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:08:45.679+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:08:45.706+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.346 seconds
+[2025-04-14T19:08:46.380+0200] {processor.py:186} INFO - Started process (PID=98474) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:08:46.381+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:08:46.383+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:08:46.383+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:08:46.439+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:08:46.654+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:08:46.653+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:08:46.666+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:08:46.666+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:08:46.688+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.315 seconds
+[2025-04-14T19:08:48.398+0200] {processor.py:186} INFO - Started process (PID=98489) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:08:48.399+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:08:48.400+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:08:48.400+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:08:48.441+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:08:48.612+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:08:48.611+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:08:48.623+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:08:48.623+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:08:48.644+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.252 seconds
+[2025-04-14T19:10:47.378+0200] {processor.py:186} INFO - Started process (PID=2088) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:10:47.382+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:10:47.384+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:10:47.383+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:10:47.432+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:10:47.781+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:10:47.781+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:10:47.799+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:10:47.798+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:10:47.825+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.454 seconds
+[2025-04-14T19:14:53.948+0200] {processor.py:186} INFO - Started process (PID=7583) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:14:53.951+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:14:53.953+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:14:53.952+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:14:54.004+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:14:54.322+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:14:54.322+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:14:54.337+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:14:54.337+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:14:54.365+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.424 seconds
+[2025-04-14T19:16:36.069+0200] {processor.py:186} INFO - Started process (PID=9887) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:16:36.072+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:16:36.074+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:16:36.073+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:16:36.134+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:16:36.381+0200] {processor.py:186} INFO - Started process (PID=9888) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:16:36.383+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:16:36.385+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:16:36.385+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:16:36.417+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:16:36.416+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:16:36.435+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:16:36.435+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:16:36.440+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:16:36.464+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.402 seconds
+[2025-04-14T19:16:36.669+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:16:36.669+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:16:36.686+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:16:36.686+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:16:36.714+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.339 seconds
+[2025-04-14T19:16:36.748+0200] {processor.py:186} INFO - Started process (PID=9894) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:16:36.750+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:16:36.752+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:16:36.751+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:16:36.797+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:16:36.973+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:16:36.972+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:16:36.987+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:16:36.987+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:16:37.010+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.268 seconds
+[2025-04-14T19:21:38.493+0200] {processor.py:186} INFO - Started process (PID=16811) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:21:38.495+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:21:38.496+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:21:38.496+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:21:38.534+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:21:38.847+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:21:38.846+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:21:38.858+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:21:38.857+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:21:38.879+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.393 seconds
+[2025-04-14T19:23:05.606+0200] {processor.py:186} INFO - Started process (PID=18633) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:23:05.618+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:23:05.620+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:23:05.620+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:23:05.665+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:23:05.853+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:23:05.852+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:23:05.871+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:23:05.871+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:23:05.950+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.350 seconds
+[2025-04-14T19:28:12.609+0200] {processor.py:186} INFO - Started process (PID=25275) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:28:12.611+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:28:12.612+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:28:12.612+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:28:12.650+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:28:12.974+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:28:12.974+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:28:12.986+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:28:12.986+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:28:13.007+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.404 seconds
+[2025-04-14T19:29:50.557+0200] {processor.py:186} INFO - Started process (PID=27352) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:29:50.560+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:29:50.561+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:29:50.561+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:29:50.610+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:29:50.957+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:29:50.956+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:29:50.973+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:29:50.972+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:29:51.004+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.453 seconds
+[2025-04-14T19:34:43.657+0200] {processor.py:186} INFO - Started process (PID=34112) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:34:43.659+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:34:43.661+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:34:43.660+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:34:43.709+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:34:44.056+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:34:44.056+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:34:44.076+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:34:44.075+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:34:44.104+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.453 seconds
+[2025-04-14T19:36:04.271+0200] {processor.py:186} INFO - Started process (PID=35649) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:36:04.274+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:36:04.275+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:36:04.275+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:36:04.322+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:36:04.508+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:36:04.508+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:36:04.520+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:36:04.520+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:36:04.541+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.276 seconds
+[2025-04-14T19:41:40.281+0200] {processor.py:186} INFO - Started process (PID=42870) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:41:40.284+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:41:40.286+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:41:40.285+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:41:40.326+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:41:40.614+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:41:40.613+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:41:40.627+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:41:40.626+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:41:40.648+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.373 seconds
+[2025-04-14T19:42:39.552+0200] {processor.py:186} INFO - Started process (PID=44350) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:42:39.555+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:42:39.557+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:42:39.556+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:42:39.610+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:42:39.839+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:42:39.838+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:42:39.854+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:42:39.853+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:42:39.879+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.333 seconds
+[2025-04-14T19:47:46.271+0200] {processor.py:186} INFO - Started process (PID=51377) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:47:46.273+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:47:46.275+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:47:46.274+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:47:46.329+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:47:46.718+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:47:46.718+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:47:46.734+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:47:46.734+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:47:46.759+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.495 seconds
+[2025-04-14T19:48:41.938+0200] {processor.py:186} INFO - Started process (PID=52639) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:48:41.952+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:48:41.973+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:48:41.972+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:48:42.038+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:48:42.292+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:48:42.291+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:48:42.310+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:48:42.309+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:48:42.342+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.410 seconds
+[2025-04-14T19:53:51.782+0200] {processor.py:186} INFO - Started process (PID=59819) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:53:51.785+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:53:51.787+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:53:51.786+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:53:51.834+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:53:52.240+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:53:52.239+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:53:52.260+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:53:52.260+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:53:52.290+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.514 seconds
+[2025-04-14T19:54:51.755+0200] {processor.py:186} INFO - Started process (PID=61309) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:54:51.757+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T19:54:51.759+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:54:51.758+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:54:51.799+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T19:54:52.060+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:54:52.059+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T19:54:52.071+0200] {logging_mixin.py:190} INFO - [2025-04-14T19:54:52.070+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T19:54:52.091+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.342 seconds
+[2025-04-14T20:00:02.754+0200] {processor.py:186} INFO - Started process (PID=68455) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:00:02.763+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:00:02.764+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:00:02.764+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:00:02.834+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:00:03.174+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:00:03.173+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:00:03.189+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:00:03.189+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:00:03.236+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.488 seconds
+[2025-04-14T20:00:59.070+0200] {processor.py:186} INFO - Started process (PID=69568) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:00:59.072+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:00:59.074+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:00:59.073+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:00:59.134+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:00:59.399+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:00:59.399+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:00:59.430+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:00:59.430+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:00:59.465+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.404 seconds
+[2025-04-14T20:06:47.271+0200] {processor.py:186} INFO - Started process (PID=77391) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:06:47.273+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:06:47.275+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:06:47.275+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:06:47.318+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:06:47.591+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:06:47.591+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:06:47.603+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:06:47.603+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:06:47.625+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.360 seconds
+[2025-04-14T20:07:18.473+0200] {processor.py:186} INFO - Started process (PID=78043) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:07:18.474+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:07:18.476+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:07:18.475+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:07:18.518+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:07:18.672+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:07:18.671+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:07:18.683+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:07:18.683+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:07:18.701+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.234 seconds
+[2025-04-14T20:12:52.983+0200] {processor.py:186} INFO - Started process (PID=85449) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:12:52.985+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:12:52.986+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:12:52.986+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:12:53.022+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:12:53.336+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:12:53.335+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:12:53.346+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:12:53.346+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:12:53.367+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.390 seconds
+[2025-04-14T20:13:14.482+0200] {processor.py:186} INFO - Started process (PID=85947) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:13:14.484+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:13:14.485+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:13:14.485+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:13:14.527+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:13:14.534+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:13:14.533+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:13:14.800+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:13:14.800+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:13:14.838+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.360 seconds
+[2025-04-14T20:18:44.998+0200] {processor.py:186} INFO - Started process (PID=93281) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:18:45.001+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:18:45.002+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:18:45.002+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:18:45.039+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:18:45.353+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:18:45.353+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:18:45.367+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:18:45.366+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:18:45.389+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.397 seconds
+[2025-04-14T20:19:07.597+0200] {processor.py:186} INFO - Started process (PID=93901) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:19:07.599+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:19:07.601+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:19:07.601+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:19:07.649+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:19:07.657+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:19:07.657+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:19:07.833+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:19:07.832+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:19:07.857+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.266 seconds
+[2025-04-14T20:24:55.602+0200] {processor.py:186} INFO - Started process (PID=2127) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:24:55.604+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:24:55.605+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:24:55.604+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:24:55.637+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:24:55.956+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:24:55.955+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:24:55.971+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:24:55.970+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:24:55.992+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.396 seconds
+[2025-04-14T20:25:03.965+0200] {processor.py:186} INFO - Started process (PID=2360) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:25:03.967+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:25:03.969+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:25:03.968+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:25:04.021+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:25:04.030+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:25:04.029+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:25:04.260+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:25:04.260+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:25:04.287+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.328 seconds
+[2025-04-14T20:30:36.289+0200] {processor.py:186} INFO - Started process (PID=9939) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:30:36.292+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:30:36.293+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:30:36.293+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:30:36.326+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:30:36.565+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:30:36.565+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:30:36.575+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:30:36.575+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:30:36.595+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.311 seconds
+[2025-04-14T20:30:36.962+0200] {processor.py:186} INFO - Started process (PID=9940) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:30:36.963+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:30:36.964+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:30:36.964+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:30:36.997+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:30:37.002+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:30:37.001+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:30:37.135+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:30:37.134+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:30:37.155+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.198 seconds
+[2025-04-14T20:35:50.778+0200] {processor.py:186} INFO - Started process (PID=17419) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:35:50.780+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:35:50.782+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:35:50.782+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:35:50.816+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:35:51.041+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:35:51.041+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:35:51.052+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:35:51.051+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:35:51.069+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.296 seconds
+[2025-04-14T20:35:53.199+0200] {processor.py:186} INFO - Started process (PID=17522) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:35:53.200+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:35:53.201+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:35:53.201+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:35:53.241+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:35:53.250+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:35:53.249+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:35:53.407+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:35:53.407+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:35:53.424+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.230 seconds
+[2025-04-14T20:41:09.917+0200] {processor.py:186} INFO - Started process (PID=24798) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:41:09.919+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:41:09.921+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:41:09.921+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:41:09.961+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:41:10.213+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:41:10.213+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:41:10.224+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:41:10.224+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:41:10.244+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.333 seconds
+[2025-04-14T20:41:12.416+0200] {processor.py:186} INFO - Started process (PID=24819) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:41:12.417+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:41:12.419+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:41:12.419+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:41:12.451+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:41:12.456+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:41:12.456+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:41:12.589+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:41:12.589+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:41:12.605+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.195 seconds
+[2025-04-14T20:46:27.405+0200] {processor.py:186} INFO - Started process (PID=32162) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:46:27.407+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:46:27.408+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:46:27.408+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:46:27.442+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:46:27.469+0200] {processor.py:186} INFO - Started process (PID=32163) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:46:27.470+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:46:27.471+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:46:27.471+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:46:27.502+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:46:27.655+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:46:27.655+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:46:27.665+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:46:27.664+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:46:27.681+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.281 seconds
+[2025-04-14T20:46:27.715+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:46:27.715+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:46:27.725+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:46:27.724+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:46:28.044+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:46:28.039+0200] {dagbag.py:698} ERROR - Failed to write serialized DAG: /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+Traceback (most recent call last):
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 160, in write_dag
+    if session.scalar(
+       ^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) UNIQUE constraint failed: serialized_dag.dag_id
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('example_display_name', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py', 26445573940592275, '{"__version": 1, "dag": {"_dag_id": "example_display_name", "_dag_display_property_value": "Sample DAG with Display Name", "catchup": false, "edge_in ... (2081 characters truncated) ... ask", "_is_empty": false, "start_trigger_args": null, "op_args": [], "op_kwargs": {}}, "__type": "operator"}], "dag_dependencies": [], "params": []}}', None, '2025-04-14 18:46:27.628582', '920243fef8eb563909dd44ce82445a34', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-04-14T20:46:28.044+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:46:28.044+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:46:28.045+0200] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 188, in _handle_dag_file_processing
+    result: tuple[int, int, int] = dag_file_processor.process_file(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 942, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 982, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 708, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/tenacity/__init__.py", line 445, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 724, in _sync_to_db
+    DAG.bulk_write_to_db(dags.values(), processor_subdir=processor_subdir, session=session)
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/dag.py", line 3252, in bulk_write_to_db
+    orm_dags: list[DagModel] = session.scalars(query).unique().all()
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) UNIQUE constraint failed: serialized_dag.dag_id
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('example_display_name', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py', 26445573940592275, '{"__version": 1, "dag": {"_dag_id": "example_display_name", "_dag_display_property_value": "Sample DAG with Display Name", "catchup": false, "edge_in ... (2081 characters truncated) ... ask", "_is_empty": false, "start_trigger_args": null, "op_args": [], "op_kwargs": {}}, "__type": "operator"}], "dag_dependencies": [], "params": []}}', None, '2025-04-14 18:46:27.628582', '920243fef8eb563909dd44ce82445a34', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-04-14T20:51:40.529+0200] {processor.py:186} INFO - Started process (PID=39475) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:51:40.531+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:51:40.533+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:51:40.533+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:51:40.567+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:51:40.787+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:51:40.786+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:51:40.796+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:51:40.796+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:51:40.813+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.289 seconds
+[2025-04-14T20:51:42.767+0200] {processor.py:186} INFO - Started process (PID=39577) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:51:42.768+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:51:42.770+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:51:42.770+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:51:42.805+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:51:42.812+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:51:42.812+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:51:43.008+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:51:43.007+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:51:43.030+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.268 seconds
+[2025-04-14T20:56:50.029+0200] {processor.py:186} INFO - Started process (PID=46713) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:56:50.031+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:56:50.032+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:56:50.032+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:56:50.069+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:56:50.347+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:56:50.346+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:56:50.358+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:56:50.358+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:56:50.382+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.359 seconds
+[2025-04-14T20:56:52.881+0200] {processor.py:186} INFO - Started process (PID=46726) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:56:52.883+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T20:56:52.885+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:56:52.884+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:56:52.924+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T20:56:52.929+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:56:52.929+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T20:56:53.111+0200] {logging_mixin.py:190} INFO - [2025-04-14T20:56:53.111+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T20:56:53.128+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.253 seconds
+[2025-04-14T21:01:59.606+0200] {processor.py:186} INFO - Started process (PID=54048) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:01:59.608+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:01:59.609+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:01:59.609+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:01:59.642+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:01:59.864+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:01:59.863+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:01:59.873+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:01:59.873+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:01:59.890+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.290 seconds
+[2025-04-14T21:02:00.450+0200] {processor.py:186} INFO - Started process (PID=54058) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:02:00.451+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:02:00.453+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:02:00.453+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:02:00.494+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:02:00.502+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:02:00.502+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:02:00.665+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:02:00.665+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:02:00.693+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.248 seconds
+[2025-04-14T21:07:22.805+0200] {processor.py:186} INFO - Started process (PID=61704) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:07:22.806+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:07:22.808+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:07:22.807+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:07:22.845+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:07:22.862+0200] {processor.py:186} INFO - Started process (PID=61705) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:07:22.864+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:07:22.865+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:07:22.864+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:07:22.898+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:07:23.086+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:07:23.086+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:07:23.097+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:07:23.097+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:07:23.115+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.316 seconds
+[2025-04-14T21:07:23.143+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:07:23.143+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:07:23.154+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:07:23.153+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:07:23.644+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:07:23.641+0200] {dagbag.py:698} ERROR - Failed to write serialized DAG: /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+Traceback (most recent call last):
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 160, in write_dag
+    if session.scalar(
+       ^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) UNIQUE constraint failed: serialized_dag.dag_id
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('example_display_name', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py', 26445573940592275, '{"__version": 1, "dag": {"catchup": false, "timezone": "UTC", "tags": ["example"], "schedule_interval": null, "_dag_display_property_value": "Sample  ... (2081 characters truncated) ... ask", "_is_empty": false, "start_trigger_args": null, "op_args": [], "op_kwargs": {}}, "__type": "operator"}], "dag_dependencies": [], "params": []}}', None, '2025-04-14 19:07:23.048914', '920243fef8eb563909dd44ce82445a34', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-04-14T21:07:23.644+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:07:23.644+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:07:23.646+0200] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 188, in _handle_dag_file_processing
+    result: tuple[int, int, int] = dag_file_processor.process_file(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 942, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 982, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 708, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/tenacity/__init__.py", line 445, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 724, in _sync_to_db
+    DAG.bulk_write_to_db(dags.values(), processor_subdir=processor_subdir, session=session)
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/dag.py", line 3252, in bulk_write_to_db
+    orm_dags: list[DagModel] = session.scalars(query).unique().all()
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) UNIQUE constraint failed: serialized_dag.dag_id
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('example_display_name', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py', 26445573940592275, '{"__version": 1, "dag": {"catchup": false, "timezone": "UTC", "tags": ["example"], "schedule_interval": null, "_dag_display_property_value": "Sample  ... (2081 characters truncated) ... ask", "_is_empty": false, "start_trigger_args": null, "op_args": [], "op_kwargs": {}}, "__type": "operator"}], "dag_dependencies": [], "params": []}}', None, '2025-04-14 19:07:23.048914', '920243fef8eb563909dd44ce82445a34', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-04-14T21:13:04.444+0200] {processor.py:186} INFO - Started process (PID=69517) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:13:04.446+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:13:04.447+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:13:04.447+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:13:04.482+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:13:04.720+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:13:04.720+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:13:04.731+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:13:04.730+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:13:04.749+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.310 seconds
+[2025-04-14T21:13:05.125+0200] {processor.py:186} INFO - Started process (PID=69519) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:13:05.126+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:13:05.127+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:13:05.127+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:13:05.160+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:13:05.165+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:13:05.165+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:13:05.313+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:13:05.313+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:13:05.330+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.210 seconds
+[2025-04-14T21:18:06.092+0200] {processor.py:186} INFO - Started process (PID=76691) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:18:06.094+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:18:06.095+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:18:06.095+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:18:06.131+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:18:06.372+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:18:06.372+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:18:06.382+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:18:06.382+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:18:06.400+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.313 seconds
+[2025-04-14T21:18:06.567+0200] {processor.py:186} INFO - Started process (PID=76783) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:18:06.568+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:18:06.569+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:18:06.569+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:18:06.607+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:18:06.613+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:18:06.612+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:18:06.754+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:18:06.754+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:18:06.773+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.211 seconds
+[2025-04-14T21:23:09.773+0200] {processor.py:186} INFO - Started process (PID=84230) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:23:09.776+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:23:09.778+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:23:09.777+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:23:09.835+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:23:10.227+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:23:10.226+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:23:10.245+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:23:10.245+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:23:10.274+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.507 seconds
+[2025-04-14T21:23:10.330+0200] {processor.py:186} INFO - Started process (PID=84239) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:23:10.332+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:23:10.334+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:23:10.334+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:23:10.390+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:23:10.399+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:23:10.398+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:23:10.644+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:23:10.644+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:23:10.672+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.349 seconds
+[2025-04-14T21:28:31.953+0200] {processor.py:186} INFO - Started process (PID=91651) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:28:31.955+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:28:31.956+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:28:31.956+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:28:31.990+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:28:32.215+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:28:32.215+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:28:32.225+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:28:32.224+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:28:32.241+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.293 seconds
+[2025-04-14T21:28:32.481+0200] {processor.py:186} INFO - Started process (PID=91652) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:28:32.482+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:28:32.484+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:28:32.483+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:28:32.519+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:28:32.524+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:28:32.523+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:28:32.656+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:28:32.656+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:28:32.681+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.205 seconds
+[2025-04-14T21:33:38.057+0200] {processor.py:186} INFO - Started process (PID=99018) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:33:38.064+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:33:38.085+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:33:38.084+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:33:38.152+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:33:38.449+0200] {processor.py:186} INFO - Started process (PID=99020) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:33:38.456+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:33:38.458+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:33:38.458+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:33:38.490+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:33:38.489+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:33:38.502+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:33:38.504+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:33:38.504+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:33:38.593+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.543 seconds
+[2025-04-14T21:33:38.705+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:33:38.705+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:33:38.722+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:33:38.722+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:33:38.770+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.326 seconds
+[2025-04-14T21:38:52.741+0200] {processor.py:186} INFO - Started process (PID=6885) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:38:52.742+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:38:52.743+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:38:52.743+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:38:52.779+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:38:53.028+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:38:53.028+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:38:53.044+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:38:53.044+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:38:53.067+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.332 seconds
+[2025-04-14T21:38:54.555+0200] {processor.py:186} INFO - Started process (PID=6896) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:38:54.556+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:38:54.558+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:38:54.558+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:38:54.593+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:38:54.600+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:38:54.599+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:38:54.763+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:38:54.762+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:38:54.781+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.233 seconds
+[2025-04-14T21:43:54.964+0200] {processor.py:186} INFO - Started process (PID=14237) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:43:54.966+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:43:54.967+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:43:54.967+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:43:55.008+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:43:55.280+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:43:55.279+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:43:55.294+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:43:55.293+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:43:55.315+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.357 seconds
+[2025-04-14T21:43:56.930+0200] {processor.py:186} INFO - Started process (PID=14253) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:43:56.931+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:43:56.932+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:43:56.931+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:43:56.964+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:43:56.970+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:43:56.969+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:43:57.103+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:43:57.103+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:43:57.120+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.195 seconds
+[2025-04-14T21:49:16.932+0200] {processor.py:186} INFO - Started process (PID=21845) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:49:16.933+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:49:16.934+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:49:16.934+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:49:16.969+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:49:17.118+0200] {processor.py:186} INFO - Started process (PID=21848) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:49:17.119+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:49:17.120+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:49:17.120+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:49:17.161+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:49:17.209+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:49:17.208+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:49:17.218+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:49:17.218+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:49:17.236+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.309 seconds
+[2025-04-14T21:49:17.308+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:49:17.308+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:49:17.319+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:49:17.319+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:49:17.338+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.226 seconds
+[2025-04-14T21:54:30.522+0200] {processor.py:186} INFO - Started process (PID=29301) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:54:30.525+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:54:30.526+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:54:30.526+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:54:30.561+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:54:30.621+0200] {processor.py:186} INFO - Started process (PID=29330) to work on /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:54:30.622+0200] {processor.py:914} INFO - Processing file /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-14T21:54:30.623+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:54:30.623+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:54:30.656+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-14T21:54:30.804+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:54:30.804+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:54:30.815+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:54:30.814+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:54:30.833+0200] {processor.py:208} INFO - Processing /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.317 seconds
+[2025-04-14T21:54:30.891+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:54:30.891+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:54:30.902+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:54:30.902+0200] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-14T21:54:31.361+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:54:31.352+0200] {dagbag.py:698} ERROR - Failed to write serialized DAG: /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+Traceback (most recent call last):
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 160, in write_dag
+    if session.scalar(
+       ^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) UNIQUE constraint failed: serialized_dag.dag_id
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('example_display_name', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py', 26445573940592275, '{"__version": 1, "dag": {"_task_group": {"_group_id": null, "prefix_group_id": true, "tooltip": "", "ui_color": "CornflowerBlue", "ui_fgcolor": "#000 ... (2081 characters truncated) ... ask", "_is_empty": false, "start_trigger_args": null, "op_args": [], "op_kwargs": {}}, "__type": "operator"}], "dag_dependencies": [], "params": []}}', None, '2025-04-14 19:54:30.799646', '920243fef8eb563909dd44ce82445a34', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-04-14T21:54:31.362+0200] {logging_mixin.py:190} INFO - [2025-04-14T21:54:31.362+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-14T21:54:31.363+0200] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 188, in _handle_dag_file_processing
+    result: tuple[int, int, int] = dag_file_processor.process_file(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 942, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 982, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 708, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/tenacity/__init__.py", line 445, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 724, in _sync_to_db
+    DAG.bulk_write_to_db(dags.values(), processor_subdir=processor_subdir, session=session)
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/dag.py", line 3252, in bulk_write_to_db
+    orm_dags: list[DagModel] = session.scalars(query).unique().all()
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) UNIQUE constraint failed: serialized_dag.dag_id
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('example_display_name', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py', 26445573940592275, '{"__version": 1, "dag": {"_task_group": {"_group_id": null, "prefix_group_id": true, "tooltip": "", "ui_color": "CornflowerBlue", "ui_fgcolor": "#000 ... (2081 characters truncated) ... ask", "_is_empty": false, "start_trigger_args": null, "op_args": [], "op_kwargs": {}}, "__type": "operator"}], "dag_dependencies": [], "params": []}}', None, '2025-04-14 19:54:30.799646', '920243fef8eb563909dd44ce82445a34', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/dags')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)

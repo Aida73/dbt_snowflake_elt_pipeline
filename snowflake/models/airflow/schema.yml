@@ -1,0 +1,17 @@
+
+version: 2
+
+sources:
+  - name: snowflake_staging
+    database: dbt_demo
+    schema: staging
+    tables:
+      - name: orders
+        columns:
+          - name: ordernumber
+            description: "A unique order number"
+            data_tests:
+              - unique
+              - not_null
+      - name: orderdetails
+        description: "Table that contains orders details"

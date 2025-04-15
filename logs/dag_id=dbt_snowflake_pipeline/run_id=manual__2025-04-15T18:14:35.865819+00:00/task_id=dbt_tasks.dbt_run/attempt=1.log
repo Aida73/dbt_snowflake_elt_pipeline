@@ -1,0 +1,45 @@
+[2025-04-15T20:14:56.035+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-15T20:14:56.047+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_snowflake_pipeline.dbt_tasks.dbt_run manual__2025-04-15T18:14:35.865819+00:00 [queued]>
+[2025-04-15T20:14:56.056+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_snowflake_pipeline.dbt_tasks.dbt_run manual__2025-04-15T18:14:35.865819+00:00 [queued]>
+[2025-04-15T20:14:56.057+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-04-15T20:14:56.071+0200] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): dbt_tasks.dbt_run> on 2025-04-15 18:14:35.865819+00:00
+[2025-04-15T20:14:56.079+0200] {standard_task_runner.py:72} INFO - Started process 84700 to run task
+[2025-04-15T20:14:56.086+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_tasks.dbt_run', 'manual__2025-04-15T18:14:35.865819+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/dbt_snowflke_airflow.py', '--cfg-path', '/var/folders/gn/cr4yj18d1tv34pkws9v_kq1r0000gn/T/tmp3p47f91_']
+[2025-04-15T20:14:56.088+0200] {standard_task_runner.py:105} INFO - Job 45: Subtask dbt_tasks.dbt_run
+[2025-04-15T20:14:56.136+0200] {task_command.py:467} INFO - Running <TaskInstance: dbt_snowflake_pipeline.dbt_tasks.dbt_run manual__2025-04-15T18:14:35.865819+00:00 [running]> on host macbook-pro-de-user.local
+[2025-04-15T20:14:56.208+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dbt_snowflake_pipeline' AIRFLOW_CTX_TASK_ID='dbt_tasks.dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2025-04-15T18:14:35.865819+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-15T18:14:35.865819+00:00'
+[2025-04-15T20:14:56.210+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-15T20:14:56.210+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-15T20:14:56.211+0200] {logging_mixin.py:190} INFO - Current task name:dbt_tasks.dbt_run state:running start_date:2025-04-15 18:14:56.048084+00:00
+[2025-04-15T20:14:56.211+0200] {logging_mixin.py:190} INFO - Dag name:dbt_snowflake_pipeline and current dag run status:running
+[2025-04-15T20:14:56.212+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-15T20:14:56.214+0200] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/gn/cr4yj18d1tv34pkws9v_kq1r0000gn/T
+[2025-04-15T20:14:56.215+0200] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/bin/dbt run --project-dir /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/snowflake --select airflow']
+[2025-04-15T20:14:56.223+0200] {subprocess.py:99} INFO - Output:
+[2025-04-15T20:14:58.974+0200] {subprocess.py:106} INFO - [0m18:14:58  Running with dbt=1.9.4
+[2025-04-15T20:15:00.052+0200] {subprocess.py:106} INFO - [0m18:15:00  Registered adapter: snowflake=1.9.2
+[2025-04-15T20:15:00.484+0200] {subprocess.py:106} INFO - [0m18:15:00  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2025-04-15T20:15:00.485+0200] {subprocess.py:106} INFO - There are 1 unused configuration paths:
+[2025-04-15T20:15:00.486+0200] {subprocess.py:106} INFO - - models.snowflake.example
+[2025-04-15T20:15:00.696+0200] {subprocess.py:106} INFO - [0m18:15:00  Found 1 model, 2 data tests, 2 sources, 474 macros
+[2025-04-15T20:15:00.699+0200] {subprocess.py:106} INFO - [0m18:15:00
+[2025-04-15T20:15:00.700+0200] {subprocess.py:106} INFO - [0m18:15:00  Concurrency: 1 threads (target='dev')
+[2025-04-15T20:15:00.701+0200] {subprocess.py:106} INFO - [0m18:15:00
+[2025-04-15T20:15:01.462+0200] {subprocess.py:106} INFO - [0m18:15:01  1 of 1 START sql table model base.orders_by_status ............................. [RUN]
+[2025-04-15T20:15:02.740+0200] {subprocess.py:106} INFO - [0m18:15:02  1 of 1 OK created sql table model base.orders_by_status ........................ [[32mSUCCESS 1[0m in 1.27s]
+[2025-04-15T20:15:02.800+0200] {subprocess.py:106} INFO - [0m18:15:02
+[2025-04-15T20:15:02.801+0200] {subprocess.py:106} INFO - [0m18:15:02  Finished running 1 table model in 0 hours 0 minutes and 2.10 seconds (2.10s).
+[2025-04-15T20:15:02.840+0200] {subprocess.py:106} INFO - [0m18:15:02
+[2025-04-15T20:15:02.842+0200] {subprocess.py:106} INFO - [0m18:15:02  [32mCompleted successfully[0m
+[2025-04-15T20:15:02.843+0200] {subprocess.py:106} INFO - [0m18:15:02
+[2025-04-15T20:15:02.844+0200] {subprocess.py:106} INFO - [0m18:15:02  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-04-15T20:15:03.588+0200] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-04-15T20:15:03.604+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-15T20:15:03.605+0200] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dbt_snowflake_pipeline, task_id=dbt_tasks.dbt_run, run_id=manual__2025-04-15T18:14:35.865819+00:00, execution_date=20250415T181435, start_date=20250415T181456, end_date=20250415T181503
+[2025-04-15T20:15:03.617+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-15T20:15:03.618+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-15T20:15:03.618+0200] {logging_mixin.py:190} INFO - Dag name:dbt_snowflake_pipeline queued_at:2025-04-15 18:14:35.935400+00:00
+[2025-04-15T20:15:03.619+0200] {logging_mixin.py:190} INFO - Task hostname:macbook-pro-de-user.local operator:BashOperator
+[2025-04-15T20:15:03.633+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-15T20:15:03.654+0200] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-15T20:15:03.655+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

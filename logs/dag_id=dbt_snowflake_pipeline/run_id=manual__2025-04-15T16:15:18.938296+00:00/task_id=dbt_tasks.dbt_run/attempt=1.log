@@ -1,0 +1,116 @@
+[2025-04-15T18:20:54.723+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-15T18:20:54.737+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_snowflake_pipeline.dbt_tasks.dbt_run manual__2025-04-15T16:15:18.938296+00:00 [queued]>
+[2025-04-15T18:20:54.752+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_snowflake_pipeline.dbt_tasks.dbt_run manual__2025-04-15T16:15:18.938296+00:00 [queued]>
+[2025-04-15T18:20:54.763+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-04-15T18:20:54.820+0200] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): dbt_tasks.dbt_run> on 2025-04-15 16:15:18.938296+00:00
+[2025-04-15T18:20:54.849+0200] {standard_task_runner.py:72} INFO - Started process 32682 to run task
+[2025-04-15T18:20:54.859+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_tasks.dbt_run', 'manual__2025-04-15T16:15:18.938296+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/dbt_snowflke_airflow.py', '--cfg-path', '/var/folders/gn/cr4yj18d1tv34pkws9v_kq1r0000gn/T/tmpq_nwy4i_']
+[2025-04-15T18:20:54.881+0200] {standard_task_runner.py:105} INFO - Job 36: Subtask dbt_tasks.dbt_run
+[2025-04-15T18:20:55.020+0200] {task_command.py:467} INFO - Running <TaskInstance: dbt_snowflake_pipeline.dbt_tasks.dbt_run manual__2025-04-15T16:15:18.938296+00:00 [running]> on host macbook-pro-de-user.local
+[2025-04-15T18:20:55.114+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dbt_snowflake_pipeline' AIRFLOW_CTX_TASK_ID='dbt_tasks.dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2025-04-15T16:15:18.938296+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-15T16:15:18.938296+00:00'
+[2025-04-15T18:20:55.116+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-15T18:20:55.117+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-15T18:20:55.117+0200] {logging_mixin.py:190} INFO - Current task name:dbt_tasks.dbt_run state:running start_date:2025-04-15 16:20:54.743914+00:00
+[2025-04-15T18:20:55.118+0200] {logging_mixin.py:190} INFO - Dag name:dbt_snowflake_pipeline and current dag run status:running
+[2025-04-15T18:20:55.118+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-15T18:20:55.120+0200] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/gn/cr4yj18d1tv34pkws9v_kq1r0000gn/T
+[2025-04-15T18:20:55.121+0200] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', '/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/bin/dbt run --project-dir /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/snowflake --select airflow']
+[2025-04-15T18:20:55.128+0200] {subprocess.py:99} INFO - Output:
+[2025-04-15T18:20:57.900+0200] {subprocess.py:106} INFO - [0m16:20:57  Running with dbt=1.9.4
+[2025-04-15T18:20:59.094+0200] {subprocess.py:106} INFO - [0m16:20:59  Registered adapter: snowflake=1.9.2
+[2025-04-15T18:20:59.663+0200] {subprocess.py:106} INFO - [0m16:20:59  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2025-04-15T18:20:59.664+0200] {subprocess.py:106} INFO - There are 1 unused configuration paths:
+[2025-04-15T18:20:59.665+0200] {subprocess.py:106} INFO - - models.snowflake.example
+[2025-04-15T18:20:59.928+0200] {subprocess.py:106} INFO - [0m16:20:59  Found 1 model, 2 data tests, 2 sources, 474 macros
+[2025-04-15T18:20:59.932+0200] {subprocess.py:106} INFO - [0m16:20:59
+[2025-04-15T18:20:59.934+0200] {subprocess.py:106} INFO - [0m16:20:59  Concurrency: 1 threads (target='dev')
+[2025-04-15T18:20:59.935+0200] {subprocess.py:106} INFO - [0m16:20:59
+[2025-04-15T18:21:00.781+0200] {subprocess.py:106} INFO - [0m16:21:00  1 of 1 START sql table model base.orders_by_status ............................. [RUN]
+[2025-04-15T18:21:00.947+0200] {subprocess.py:106} INFO - [0m16:21:00  1 of 1 ERROR creating sql table model base.orders_by_status .................... [[31mERROR[0m in 0.16s]
+[2025-04-15T18:21:01.016+0200] {subprocess.py:106} INFO - [0m16:21:01
+[2025-04-15T18:21:01.017+0200] {subprocess.py:106} INFO - [0m16:21:01  Finished running 1 table model in 0 hours 0 minutes and 1.08 seconds (1.08s).
+[2025-04-15T18:21:01.107+0200] {subprocess.py:106} INFO - [0m16:21:01
+[2025-04-15T18:21:01.109+0200] {subprocess.py:106} INFO - [0m16:21:01  [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[2025-04-15T18:21:01.112+0200] {subprocess.py:106} INFO - [0m16:21:01
+[2025-04-15T18:21:01.117+0200] {subprocess.py:106} INFO - [0m16:21:01    Database Error in model orders (models/airflow/orders.sql)
+[2025-04-15T18:21:01.118+0200] {subprocess.py:106} INFO -   002003 (02000): SQL compilation error:
+[2025-04-15T18:21:01.119+0200] {subprocess.py:106} INFO -   Database 'DEMO_DB' does not exist or not authorized.
+[2025-04-15T18:21:01.120+0200] {subprocess.py:106} INFO -   compiled code at target/run/snowflake/models/airflow/orders.sql
+[2025-04-15T18:21:01.122+0200] {subprocess.py:106} INFO - [0m16:21:01
+[2025-04-15T18:21:01.123+0200] {subprocess.py:106} INFO - [0m16:21:01  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[2025-04-15T18:21:02.363+0200] {subprocess.py:110} INFO - Command exited with return code 1
+[2025-04-15T18:21:02.377+0200] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-04-15T18:21:02.389+0200] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-04-15T18:21:02.390+0200] {logging_mixin.py:190} INFO - Task start:2025-04-15 16:20:54.743914+00:00 end:2025-04-15 16:21:02.388726+00:00 duration:7.644812
+[2025-04-15T18:21:02.391+0200] {logging_mixin.py:190} INFO - Task:<Task(BashOperator): dbt_tasks.dbt_run> dag:<DAG: dbt_snowflake_pipeline> dagrun:<DagRun dbt_snowflake_pipeline @ 2025-04-15 16:15:18.938296+00:00: manual__2025-04-15T16:15:18.938296+00:00, state:running, queued_at: 2025-04-15 16:15:18.990957+00:00. externally triggered: True>
+[2025-04-15T18:21:02.392+0200] {logging_mixin.py:190} INFO - Failure caused by Bash command failed. The command returned a non-zero exit code 1.
+[2025-04-15T18:21:02.394+0200] {taskinstance.py:1226} INFO - Marking task as UP_FOR_RETRY. dag_id=dbt_snowflake_pipeline, task_id=dbt_tasks.dbt_run, run_id=manual__2025-04-15T16:15:18.938296+00:00, execution_date=20250415T161518, start_date=20250415T162054, end_date=20250415T162102
+[2025-04-15T18:21:02.422+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-15T18:21:02.423+0200] {standard_task_runner.py:124} ERROR - Failed to execute job 36 for task dbt_tasks.dbt_run (Bash command failed. The command returned a non-zero exit code 1.; 32682)
+Traceback (most recent call last):
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-04-15T18:21:02.440+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-04-15T18:21:02.469+0200] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-15T18:21:02.470+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,29 @@
+[2025-04-14T19:18:19.167+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-14T19:18:19.184+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_world_dag.say_hello scheduled__2025-04-11T00:00:00+00:00 [queued]>
+[2025-04-14T19:18:19.193+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_world_dag.say_hello scheduled__2025-04-11T00:00:00+00:00 [queued]>
+[2025-04-14T19:18:19.194+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 4
+[2025-04-14T19:18:19.211+0200] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): say_hello> on 2025-04-11 00:00:00+00:00
+[2025-04-14T19:18:19.220+0200] {standard_task_runner.py:72} INFO - Started process 12134 to run task
+[2025-04-14T19:18:19.232+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'hello_world_dag', 'say_hello', 'scheduled__2025-04-11T00:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/hello_world.py', '--cfg-path', '/var/folders/gn/cr4yj18d1tv34pkws9v_kq1r0000gn/T/tmp_b7e7v5v']
+[2025-04-14T19:18:19.236+0200] {standard_task_runner.py:105} INFO - Job 11: Subtask say_hello
+[2025-04-14T19:18:19.324+0200] {task_command.py:467} INFO - Running <TaskInstance: hello_world_dag.say_hello scheduled__2025-04-11T00:00:00+00:00 [running]> on host macbook-pro-de-user.local
+[2025-04-14T19:18:19.442+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hello_world_dag' AIRFLOW_CTX_TASK_ID='say_hello' AIRFLOW_CTX_EXECUTION_DATE='2025-04-11T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-11T00:00:00+00:00'
+[2025-04-14T19:18:19.445+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-14T19:18:19.447+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-14T19:18:19.448+0200] {logging_mixin.py:190} INFO - Current task name:say_hello state:running start_date:2025-04-14 17:18:19.185265+00:00
+[2025-04-14T19:18:19.450+0200] {logging_mixin.py:190} INFO - Dag name:hello_world_dag and current dag run status:running
+[2025-04-14T19:18:19.451+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-14T19:18:19.454+0200] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/gn/cr4yj18d1tv34pkws9v_kq1r0000gn/T
+[2025-04-14T19:18:19.456+0200] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', 'echo "hello world you all from Airflow"']
+[2025-04-14T19:18:19.467+0200] {subprocess.py:99} INFO - Output:
+[2025-04-14T19:18:19.474+0200] {subprocess.py:106} INFO - hello world you all from Airflow
+[2025-04-14T19:18:19.475+0200] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-04-14T19:18:19.502+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-14T19:18:19.504+0200] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=hello_world_dag, task_id=say_hello, run_id=scheduled__2025-04-11T00:00:00+00:00, execution_date=20250411T000000, start_date=20250414T171819, end_date=20250414T171819
+[2025-04-14T19:18:19.527+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-14T19:18:19.528+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-14T19:18:19.529+0200] {logging_mixin.py:190} INFO - Dag name:hello_world_dag queued_at:2025-04-14 17:18:13.280418+00:00
+[2025-04-14T19:18:19.530+0200] {logging_mixin.py:190} INFO - Task hostname:macbook-pro-de-user.local operator:BashOperator
+[2025-04-14T19:18:19.565+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-14T19:18:19.588+0200] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-14T19:18:19.590+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

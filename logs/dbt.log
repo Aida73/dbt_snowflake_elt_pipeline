@@ -1,0 +1,30 @@
+[0m13:50:57.586041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111cf1ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111d15750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111d15ed0>]}
+
+
+============================== 13:50:57.594629 | 0748ec3d-61a9-4c86-9012-0a0e6ad6224a ==============================
+[0m13:50:57.594629 [info ] [MainThread]: Running with dbt=1.9.4
+[0m13:50:57.596168 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/user/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:51:04.905987 [debug] [MainThread]: Starter project path: /Users/user/Documents/learningProg/dataengineering/de_dbt_snowflake_airflow/airflow-env/lib/python3.11/site-packages/dbt/include/starter_project
+[0m13:51:04.960241 [info ] [MainThread]: 
+Your new dbt project "snowflake" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:51:04.961868 [info ] [MainThread]: Setting up your profile.
+[0m13:58:10.306685 [info ] [MainThread]: Profile snowflake written to /Users/user/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:58:10.370473 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 432.88602, "process_in_blocks": "0", "process_kernel_time": 1.022871, "process_mem_max_rss": "136994816", "process_out_blocks": "0", "process_user_time": 2.999149}
+[0m13:58:10.380488 [debug] [MainThread]: Command `dbt init` succeeded at 13:58:10.379009 after 432.91 seconds
+[0m13:58:10.390165 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111ce7010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d863950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1141fd790>]}
+[0m13:58:10.397821 [debug] [MainThread]: Flushing usage events
+[0m13:58:10.945496 [debug] [MainThread]: An error was encountered while trying to flush usage events
